@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.1.2'
 
+gem 'rake', '< 11.0'
 gem 'bootstrap-sass', '3.1.1.1'
 gem 'coffee-rails'
 gem 'rails', '4.1.1'
@@ -31,4 +32,3 @@ end
 group :production do
   gem 'rails_12factor'
 end
-
